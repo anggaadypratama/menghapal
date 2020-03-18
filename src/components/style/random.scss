@@ -1,0 +1,225 @@
+@import "./parent.scss";
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+  margin-top: 50px;
+  width: 320px;
+  height: 100px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+  background-color: steelblue;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  background-color: royalblue;
+}
+
+//tabel
+
+.tabel {
+  &:hover {
+    text-decoration: line-through;
+    font-style: italic;
+    cursor: pointer;
+  }
+}
+
+table {
+  width: 50%;
+}
+
+thead,
+tbody,
+tr,
+td {
+  display: block;
+}
+
+table {
+  thead {
+    th {
+      height: 50px;
+      width: 50%;
+      display: inline-block;
+    }
+  }
+
+  tbody {
+    height: 300px;
+    overflow-y: auto;
+
+    tr {
+      &:after {
+        content: " ";
+        display: block;
+        visibility: hidden;
+        clear: both;
+      }
+
+      td {
+        width: 50%;
+        float: left !important;
+      }
+    }
+  }
+}
+
+//floating form
+.form-group {
+  position: relative;
+}
+
+.form-control {
+
+  &:focus,
+  &:active {
+    outline: 0 !important;
+    box-shadow: none;
+    border-color: $darklate;
+  }
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+  font-size: 80%;
+  font-weight: bold;
+  color: $darklate;
+  transform: translate3d(-20%, -110%, 0);
+  opacity: 1;
+  -webkit-transform: translate3d(-20%, -110%, 0);
+  -moz-transform: translate3d(-20%, -110%, 0);
+  -ms-transform: translate3d(-20%, -110%, 0);
+  -o-transform: translate3d(-20%, -110%, 0);
+}
+
+.btn {
+  &:hover {
+    box-shadow: 5px 5px 10px rgb(207, 207, 207);
+  }
+
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.table-hover tbody tr:hover {
+
+  td,
+  th {
+    background-color: $crimson;
+    color: white;
+  }
+}
+
+#submit {
+  background-color: $skyblue;
+  font-weight: bold;
+
+  &:hover {
+    background-color: rgb(110, 202, 196);
+  }
+}
+
+.upload {
+  border: 2px solid $darklate;
+  color: $darklate;
+  font-weight: bold;
+  font-family: arial;
+
+  &:hover {
+    background-color: $darklate;
+    color: #ffffff;
+  }
+}
+
+.footer {
+  position: fixed;
+  padding: 10px 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $darklategray;
+  color: $silver;
+  font-family: 'arial';
+  text-align: center;
+
+  .text {
+    margin: 3px 0px;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
