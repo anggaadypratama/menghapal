@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ngapalin/static/css/main.e2c78fce.chunk.css",
-    "main.js": "/ngapalin/static/js/main.08fc6600.chunk.js",
-    "main.js.map": "/ngapalin/static/js/main.08fc6600.chunk.js.map",
-    "runtime-main.js": "/ngapalin/static/js/runtime-main.5bd8f282.js",
-    "runtime-main.js.map": "/ngapalin/static/js/runtime-main.5bd8f282.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/ngapalin/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.e8924229.chunk.js": "/ngapalin/static/js/2.e8924229.chunk.js",
-    "static/js/2.e8924229.chunk.js.map": "/ngapalin/static/js/2.e8924229.chunk.js.map",
-    "index.html": "/ngapalin/index.html",
-    "precache-manifest.146b892935e7f96758eaedf255dc5f1b.js": "/ngapalin/precache-manifest.146b892935e7f96758eaedf255dc5f1b.js",
-    "service-worker.js": "/ngapalin/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/ngapalin/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.e2c78fce.chunk.css.map": "/ngapalin/static/css/main.e2c78fce.chunk.css.map",
-    "static/js/2.e8924229.chunk.js.LICENSE.txt": "/ngapalin/static/js/2.e8924229.chunk.js.LICENSE.txt"
+    "main.css": "/menghapal/static/css/main.e2c78fce.chunk.css",
+    "main.js": "/menghapal/static/js/main.36af1e7d.chunk.js",
+    "main.js.map": "/menghapal/static/js/main.36af1e7d.chunk.js.map",
+    "runtime-main.js": "/menghapal/static/js/runtime-main.2bbc6413.js",
+    "runtime-main.js.map": "/menghapal/static/js/runtime-main.2bbc6413.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/menghapal/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.e8924229.chunk.js": "/menghapal/static/js/2.e8924229.chunk.js",
+    "static/js/2.e8924229.chunk.js.map": "/menghapal/static/js/2.e8924229.chunk.js.map",
+    "index.html": "/menghapal/index.html",
+    "precache-manifest.3f94fcdfe33e5414c4be83e3bf15757d.js": "/menghapal/precache-manifest.3f94fcdfe33e5414c4be83e3bf15757d.js",
+    "service-worker.js": "/menghapal/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/menghapal/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.e2c78fce.chunk.css.map": "/menghapal/static/css/main.e2c78fce.chunk.css.map",
+    "static/js/2.e8924229.chunk.js.LICENSE.txt": "/menghapal/static/js/2.e8924229.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bd8f282.js",
+    "static/js/runtime-main.2bbc6413.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.e8924229.chunk.js",
     "static/css/main.e2c78fce.chunk.css",
-    "static/js/main.08fc6600.chunk.js"
+    "static/js/main.36af1e7d.chunk.js"
   ]
 }
