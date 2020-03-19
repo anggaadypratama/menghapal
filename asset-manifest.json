@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/menghapal/static/css/main.e2c78fce.chunk.css",
-    "main.js": "/menghapal/static/js/main.36af1e7d.chunk.js",
-    "main.js.map": "/menghapal/static/js/main.36af1e7d.chunk.js.map",
+    "main.js": "/menghapal/static/js/main.a2e70cc9.chunk.js",
+    "main.js.map": "/menghapal/static/js/main.a2e70cc9.chunk.js.map",
     "runtime-main.js": "/menghapal/static/js/runtime-main.2bbc6413.js",
     "runtime-main.js.map": "/menghapal/static/js/runtime-main.2bbc6413.js.map",
     "static/css/2.47e06e2e.chunk.css": "/menghapal/static/css/2.47e06e2e.chunk.css",
     "static/js/2.e8924229.chunk.js": "/menghapal/static/js/2.e8924229.chunk.js",
     "static/js/2.e8924229.chunk.js.map": "/menghapal/static/js/2.e8924229.chunk.js.map",
     "index.html": "/menghapal/index.html",
-    "precache-manifest.3f94fcdfe33e5414c4be83e3bf15757d.js": "/menghapal/precache-manifest.3f94fcdfe33e5414c4be83e3bf15757d.js",
+    "precache-manifest.33cc98ac7f614e567fde876651e68118.js": "/menghapal/precache-manifest.33cc98ac7f614e567fde876651e68118.js",
     "service-worker.js": "/menghapal/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/menghapal/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.e2c78fce.chunk.css.map": "/menghapal/static/css/main.e2c78fce.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.e8924229.chunk.js",
     "static/css/main.e2c78fce.chunk.css",
-    "static/js/main.36af1e7d.chunk.js"
+    "static/js/main.a2e70cc9.chunk.js"
   ]
 }
