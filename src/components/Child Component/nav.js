@@ -34,10 +34,10 @@ export const Navbar = () => {
         }}
       >
         <div className="container">
-          <a
+          <Link
             className="navbar-brand"
             style={{ color: gaya.darklate }}
-            href="/"
+            to="/ngapalkeun"
           />
           <button
             className="navbar-toggler border-0"
@@ -53,14 +53,14 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav m-auto">
               <li className="nav-item ">
-                <Link className="nav-link " to="/">
+                <Link className="nav-link " to="/ngapalkeun">
                   Input
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to={random.length < 1 ? `/` : `/tebak`}
+                  to={random.length < 1 ? `/ngapalkeun` : `/ngapalkeun/tebak`}
                 >
                   Mulai
                 </Link>
