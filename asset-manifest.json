@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ngapalin/static/css/main.e2c78fce.chunk.css",
+    "main.js": "/ngapalin/static/js/main.a4344497.chunk.js",
+    "main.js.map": "/ngapalin/static/js/main.a4344497.chunk.js.map",
+    "runtime-main.js": "/ngapalin/static/js/runtime-main.5bd8f282.js",
+    "runtime-main.js.map": "/ngapalin/static/js/runtime-main.5bd8f282.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/ngapalin/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.e8924229.chunk.js": "/ngapalin/static/js/2.e8924229.chunk.js",
+    "static/js/2.e8924229.chunk.js.map": "/ngapalin/static/js/2.e8924229.chunk.js.map",
+    "index.html": "/ngapalin/index.html",
+    "precache-manifest.db7f9c31332c2f0ae1bea204d17e4fbe.js": "/ngapalin/precache-manifest.db7f9c31332c2f0ae1bea204d17e4fbe.js",
+    "service-worker.js": "/ngapalin/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/ngapalin/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.e2c78fce.chunk.css.map": "/ngapalin/static/css/main.e2c78fce.chunk.css.map",
+    "static/js/2.e8924229.chunk.js.LICENSE.txt": "/ngapalin/static/js/2.e8924229.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bd8f282.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.e8924229.chunk.js",
+    "static/css/main.e2c78fce.chunk.css",
+    "static/js/main.a4344497.chunk.js"
+  ]
+}
