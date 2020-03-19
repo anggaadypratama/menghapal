@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import {
   Switch,
   Route,
-  HashRouter as Router,
+  BrowserRouter as Router,
   Redirect
 } from "react-router-dom";
 import { Input } from "../../Layout/input";
@@ -17,12 +17,12 @@ export const LinkGan = prop => {
     <Router>
       {prop.children}
       <Switch>
-        <Route exact path="/ngapalkeun" component={Input} />
+        <Route exact path="/" component={Input} />
         {random.length < 1
-          ? <Redirect from="/ngapalkeun/tebak" to="/ngapalkeun" />
-          : <Route path="/ngapalkeun/tebak" component={Tebak} />}
-        <Route path="/ngapalkeun/404" component={NotFound} />
-        <Redirect from="*" to="/ngapalkeun/404" />
+          ? <Redirect from="/tebak" to="/" />
+          : <Route path="/tebak" component={Tebak} />}
+        <Route path="/404" component={NotFound} />
+        <Redirect from="*" to="/404" />
       </Switch>
     </Router>
   );
