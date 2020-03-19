@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "088950413fa7b9e570dbac81cd26cbd0",
+    "revision": "1993b1c7ce2b107b133ffe474a7a940a",
     "url": "/menghapal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menghapal/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "fdd6c998adad3336d431",
+    "revision": "b13b0acd8dbfb74882f3",
     "url": "/menghapal/static/css/main.e2c78fce.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menghapal/static/js/2.e8924229.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdd6c998adad3336d431",
-    "url": "/menghapal/static/js/main.a2e70cc9.chunk.js"
+    "revision": "b13b0acd8dbfb74882f3",
+    "url": "/menghapal/static/js/main.751aadad.chunk.js"
   },
   {
     "revision": "1b40789ba77382e47da8",
