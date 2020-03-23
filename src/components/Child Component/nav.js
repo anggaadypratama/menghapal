@@ -38,7 +38,9 @@ export const Navbar = () => {
             className="navbar-brand"
             style={{ color: gaya.darklate }}
             to="/"
-          />
+          >
+            Ngapalkeun
+          </Link>
           <button
             className="navbar-toggler border-0"
             type="button"

@@ -1,20 +1,26 @@
-import React, { useState, useContext } from "react";
-import { DataContext } from "../../Context/DataContext";
+import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 import { InputLess } from "../../Child Component/input";
 import { Tombol } from "../../Child Component/tombol";
 import { gaya } from "../../style/style";
 
-export const Jawab = ({ satu }) => {
+export const Jawab = ({ satu, send }) => {
   const [jawab, setJawab] = useState("");
-  const { setAcak } = useContext(DataContext);
+  const [Condition, setCondition] = useState(null);
 
   const submit = e => {
     e.preventDefault();
-    let jawaban = jawab === satu ? "benar" : "salah";
-    alert(jawaban);
-    let disabled = jawaban === "benar" ? false : true;
-    setAcak(disabled);
+    let jawaban =
+      jawab === satu
+        ? send
+        : Swal.fire({
+            icon: "error",
+            title: "Waduh Salah gan",
+            text: "Coba cek atau ingat-ingat lagi!"
+          });
+
+    setCondition(jawaban);
   };
 
   return (
@@ -25,6 +31,7 @@ export const Jawab = ({ satu }) => {
         margin={"mt-4"}
         color={gaya.white}
         judul={`Jawab`}
+        click={Condition}
       />
 
       {/* <AcakAngka /> */}

@@ -4,13 +4,13 @@ import { Jawab } from "./Jawab";
 // import Acak from "./Acak";
 
 export const Kuis = props => {
-  const { pertanyaan, jawabanSatu } = props;
+  const { pertanyaan, jawabanSatu, send } = props;
   let satu = jawabanSatu;
 
   return (
     <div>
       <Kartu pertama={pertanyaan} />
-      <Jawab satu={satu} />
+      <Jawab send={send} satu={satu} />
     </div>
   );
 };

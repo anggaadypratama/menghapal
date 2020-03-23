@@ -14,7 +14,7 @@ export const LinkGan = prop => {
   const { random } = useContext(DataContext);
 
   return (
-    <Router>
+    <Router basename="/menghapal">
       {prop.children}
       <Switch>
         <Route exact path="/" component={Input} />

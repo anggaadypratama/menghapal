@@ -20,6 +20,7 @@ export const Tombol = props => {
         defaultValue={judul}
         disabled={disabled}
         onClick={click}
+
       />
     </div>
   );
